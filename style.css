@@ -63,3 +63,18 @@
     background: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
+
+.card-bottom {
+    right: 0;
+    margin-top: -178px;
+}
+
+.card-text {
+    color: #aeaeae;
+}
+
+.card-color {
+    background: #000;
+}
+
+.ico
