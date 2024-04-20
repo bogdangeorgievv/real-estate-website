@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* navbar styling */
+
+.nav-link.btn  {
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    border: 3px solid;
+    border-color: #d2f884;
+    padding: 1rem;
+}
+
+.nav-link.btn:hover {
+    background-color: #f47a36; 
+    color: #ffffff;
+}
+
+@media only screen 
+  and (max-width: 440px) /* iPhone 12 */
+  and (orientation: portrait) {
+
+    .nav-link.btn {
+        font-size: 10px; /* Set smaller font size for mobile */
+        font-weight: 700;
+        padding: 10px; /* Optional: Adjust padding for smaller screens */
+        margin: 0 5%;
+    }
+    .navbar img {
+        width: 20%;
+        margin: 0 5%;
+    }
+}
+
+/* hero section */
+.container2 {
+    width: 100%;
+    background-color: #fdffe5 ;
+}
+.center-text {
+    text-align: center;
+    background-color: #fdffe5;
+    padding: 5% 5%;
+    margin: 0 10%;
+}
+
+.center-text h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.center-text p {
+    font-size: 1.5rem;
+    margin: 1%;
+}
+
+.center-text .learn-more  {
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+    background-color: #d2f884;
+    border: 3px solid;
+    border-color: black;
+    padding: 5px 5rem;
+    margin: 2%;
+}
+
+.center-text .learn-more:hover {
+    background-color: #f47a36; 
+    color: #ffffff;
+}
+
+@media only screen 
+  and (max-width: 440px) /* iPhone 12 */
+  and (orientation: portrait) {
+
+    .center-text h1 {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+    
+    .center-text p {
+        font-size: 0.75rem;
+        margin: 1%;
+    }
+    
+    .center-text .learn-more  {
+        font-size: 16px;
+        font-weight: 800;
+        padding: 5px 2rem;
+        margin: 2%;
+    }
+}
+
+/* brands */
+
+.brands h1 {
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.brands {
+    text-align: center;
+    padding-top: 5%;
+    display: grid;
+}
+
+.brands .first-row img {
+    margin: 0 2%;
+}
+
+.brands .second-row img {
+    margin: 0 2%;
+}
+
+@media only screen 
+  and (max-width: 440px) /* iPhone 12 */
+  and (orientation: portrait) {
+    .brands h1 {
+        font-size: 1rem;
+        
+    }
+    .first-row {
+        padding: 20px;
+    }
+    .brands .first-row img {
+        margin: 0 2%;
+        width: 4rem;
+    }
+    
+    .brands .second-row img {
+        margin: 0 2%;
+        width: 4rem;
+    }
+  }
