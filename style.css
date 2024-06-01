@@ -55,7 +55,6 @@
 }
 
 
-
 .carousel-item .carousel-caption input {
     padding: 0.73rem 1rem;
 }
@@ -135,8 +134,7 @@
     color: #aeaeae;
 }
 
-@media only screen and (max-width: 850px) {
-    .contact-map {
-        width: 100%;
-    }
+
+@media only screen and (max-width: 500px) {
+
 }
